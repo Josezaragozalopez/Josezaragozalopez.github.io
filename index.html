@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-red">
+    <h1 class="w3-xxxlarge"><b>Trial</b></h1>
+    <h6>En esta web aprenderemos más sobre un deporte poco conocido: <span class="w3">El trial</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="web-imagenes/web-imagen20.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-topleft w3-padding-large">
+      <h1 class="w3-text-red">De los deportes</h1>
+      <h1 class="w3-jumbo w3-text-red w3-hide-small"><b>MAS EXIGENTES</b></h1>
+    
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div >
+          <h3>El trial en España</h3>
+          <h5>Ciudad mas trialera <span class="w3-text-blue">Cartagena</span></h5>
+        </div>
+
+        <div>
+		  <img class="w3-right" src="web-imagenes/web-imagen12.jpg" alt="Girl Hat"  style="width:50%" class="w3-padding-16">
+		  
+          <p><strong> <a href="https://www.cartagena.es/">Cartagena </a></strong> es una ciudad muy trialera, es decir, en la que este deporte está muy desarrollado. </p>
+          <p>Cientos de jóvenes y adultos practican este deporte en sus ratos libres como hobbie, puesto que es un deporte que no resulta excesivamente económico y se puede practicar en cualquier lado.</p>
+		  
+		  <p> El trial, también es un deporte muy fotogénico, y desde el club, hemos creado una pequeña galería digital para ver este deporte en todo su esplendor. Para verla, pincha <strong><a href="https://cicloscurra.com/"> aquí <</strong>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> ¿Está pensando en iniciarte en el deporte?</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Mejor trialero en Cartagena </b> <span class="w3-tag w3-white">(1)</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="web-imagenes/web-imagen14.jpg" style="width:150px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4 class=" w3-orange" >Raúl Martínez </h4>
+                <p>LLeva haciendo trial desde los 6 años, le patrocina una empresa de trial local: <a href="https://cicloscurra.com/">Ciclos Currá </a></p>
+				<p>También tiene una escuela de trial en Los Camachos. La escuela se llama <a href="#enlace-raul">Escuela Trial Bici Cartagena </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3 class="w3-padding-16 w3-red">Características de una bici de trial</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+          
+		 <div class="w3-center">
+		 <img src="web-imagenes/web-imagen31.jpg" >
+		  <img src="web-imagenes/web-imagen30.jpg" alt="Men in Hats" style="width:150% height:70%" class="w3-padding-16">
+		  </div>
+          <p> Las <strong class="w3-red"> bicis de trial</strong>son bicis muy diferentes a una normal, tanto por fuera como por dentro. </p>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagengeo.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Geometría</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagenneu.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Neumáticos</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagenesfre.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Frenos</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagenpos.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Postura</span>
+            <br>
+            
+          </li>
+        </ul>
+         
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        
+
+        <div class="w3-justify">
+          
+          
+          <p class="w3-right"><button class="w3-button w3-red" onclick="myFunction('demo3')"><b>Opiniones  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="web-imagenes/pepe.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Pepe Brusaceo <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>Me encantó esta página, muy útil para iniciarme en el deporte :).</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="web-imagenes/mike.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>MikePeponcio <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Genail la página cabros, me la recomendó un amigo, y contento estoy de hacerle caso!.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        
+        <div class="w3-container w3-red">
+          <h4>Sígueme en mis redes sociales</h4>
+          <p>Instagram: @trial_boyzz</p>
+		  <p>Facebook: @triallboys </p>
+		  <p> Twitter: @loschicosdeltrial </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-red">
+          <h4>Algunos buenos trialeros</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagen23.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Abel Mustieles</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagen24.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Benito Ros</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagen25.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Sebas Ruiz</span>
+            <br>
+            
+          </li>
+          <li class="w3-padding-16">
+            <img src="web-imagenes/web-imagen26.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Raúl Martínez</span>
+            <br>
+            
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+      
+      <hr>
+
+    
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-red">
+          <h4>EQUILIBRIO</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+         <img src="web-imagenes/web-imagen8.jpg">
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-red">
+          <h4> <a href="file:///C:/Users/Jose%20Zaragoza/Documents/web/secundaria.html">Visita la página de nuestro club </a> </h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p class="w3-text-red"> <a href="file:///C:/Users/Jose%20Zaragoza/Documents/web/secundaria.html">@trialboyzzz </a> </p>
+          <p<input class="w3-input w3-bord" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+		  
+         
+        </div>
+      </div>
+	   <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-red">
+          <h4> <a href="file:///C:/Users/Jose%20Zaragoza/Documents/web/terciaria.html">Visita también nuestra otra página colaborativa </a> </h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p class="w3-text-red"> Allí encontrarás recomendaciones de algunas buenas bicis de trial, para todo tipo de públicos y bolsillos.  </p>
+          <p<input class="w3-input w3-bord" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+	
+</div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-red w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "Te animo a hacerlo :)";
+}
+</script>
+
+</body>
+</html>
